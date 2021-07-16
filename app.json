@@ -9,8 +9,8 @@
     "fuck-TG"
   ],
   "repository": "https://github.com/daveh566/NellyZ",
-  "website": "Kay/aspirer.project",
-  "success_url": "t.me/intimacyfolkz",
+  "website": "daisyproject.studio",
+  "success_url": "t.me/DaisyXUpdates",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -64,7 +64,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Only for fork users else don't change",
-      "value": "https://github.com/TeamDaisyX/DaisyX-v2.0",
+      "value": "https://github.com/daveh566/Nelly Z-v2.0",
       "required": false  
     },
     "API_PORT": {
@@ -138,12 +138,12 @@
     "IBM_WATSON_CRED_URL": {
       "description": "IBM_WATSON_CRED_URL (no need)",
       "value": "",
-      "required": true
+      "required": false
     },
     "IBM_WATSON_CRED_PASSWORD": {
       "description": "IBM_WATSON_CRED_PASSWORD (no need)",
       "value": "",
-      "required": true
+      "required": false
     },
     "OPENWEATHERMAP_ID": {
       "description": "weather api (no need)",
@@ -192,4 +192,3 @@
     }
   }
 }
-Ok I'll h ok I will
