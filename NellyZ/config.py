@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of NellyZBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -28,7 +28,7 @@ DEFAULTS = {
     "REDIS_PORT": 6379,
     "REDIS_DB_FSM": 1,
     "MONGODB_URI": "localhost",
-    "MONGO_DB": "NellyZ",
+    "MONGO_DB": "DaisyX",
     "API_PORT": 8080,
     "JOIN_CONFIRM_DURATION": "30m",
 }
