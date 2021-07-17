@@ -1,0 +1,3 @@
+files:
+  - source: NellyZ/localization/en.yaml
+    translation: /**/NellyZ/localization/%locale_with_underscore%.yaml
