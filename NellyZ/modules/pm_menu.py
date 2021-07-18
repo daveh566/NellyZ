@@ -1,8 +1,8 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
-# Copyright (C) 2020 Inuka Asith
+# Copyright (C) 2021 
+# Copyright (C) 2020 Aspirer
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of NellyZBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -24,8 +24,8 @@ from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMa
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
 
-from DaisyX.decorator import register
-from DaisyX.modules.utils.disable import disableable_dec
+from NellyZ.decorator import register
+from NellyZ.modules.utils.disable import disableable_dec
 
 from . import MOD_HELP
 from .language import select_lang_keyboard
@@ -45,9 +45,9 @@ def help_markup(modules):
 
 
 IMAGES = (
-    "CAACAgIAAx0CTmcXBQACA_Fg6pWUuacxPunqcI2h33SE1uOoRwACAnkAAmOLRgz0dsaTzv10TB4E",
-    "CAACAgIAAx0CTmcXBQACA-5g6pWHC2VqJaZSsdN4LKy41D0XxwAC2XgAAmOLRgxE-DP2On961x4E",
-    "CAACAgUAAxkBAAJOHGBeljOJ35CQNnkpnVcgRoHuJX6DAAL3AQACN8TBVm1PIART01cWHgQ",
+    "https://telegra.ph/file/2460c6631fc02400b9479.jpg",
+    "https://telegra.ph/file/8879158bd2de2ac60e381.jpg",
+    "https://telegra.ph/file/2460c6631fc02400b9479.jpg",
 )
 
    
@@ -70,27 +70,27 @@ async def get_start_func(message, strings, edit=False):
 
     task = msg.edit_text if edit else msg.reply
     buttons = InlineKeyboardMarkup()
-    buttons.add(InlineKeyboardButton(strings["btn_help"], callback_data="get_help"))
+    buttons.add(InlineKeyboardButton(strings["btn_HELP"], callback_data="get_help"))
     buttons.add(
-        InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
+        InlineKeyboardButton(strings["btn_LANGUAGE"], callback_data="lang_btn"),
         InlineKeyboardButton(
-            strings["btn_source"], url="https://t.me/aspirer2/"
+            strings["btn_OWNER"], url="https://t.me/aspirer2/"
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/intimacyfolks"),
+        InlineKeyboardButton(strings["btn_CHANNEL"], url="https://t.me/intimacyfolks"),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/intimacyfolkz"
+            strings["btn_GROUP"], url="https://t.me/intimacyfolkz"
         ),
     buttons.add(
         InlineKeyboardButton(
-            "Source Code",
-          url=f"
+            "SOURCE CODE",
+          url=f"https://telegra.ph/file/bf125c4afaa0bdfb8c219.jpg",
     )
     buttons.add(
         InlineKeyboardButton(
-            "👸🏼 Add Miss Nelly to your group",
-            url=f"https://telegram.me/missnellyXbot?startgroup=true",
+            "👸🏼 ADD MISS NELLY TO YOUR GROUP",
+            url=f"https://telegram.me/NellyZBot?startgroup=true",
         )
     )
     # Handle error when user click the button 2 or more times simultaneously
