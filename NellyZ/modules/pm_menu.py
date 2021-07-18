@@ -70,17 +70,17 @@ async def get_start_func(message, strings, edit=False):
 
     task = msg.edit_text if edit else msg.reply
     buttons = InlineKeyboardMarkup()
-    buttons.add(InlineKeyboardButton(strings["btn_HELP"], callback_data="get_help"))
+    buttons.add(InlineKeyboardButton(strings["btn_help"], callback_data="get_help"))
     buttons.add(
-        InlineKeyboardButton(strings["btn_LANGUAGE"], callback_data="lang_btn"),
+        InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
         InlineKeyboardButton(
-            strings["btn_OWNER"], url="https://t.me/aspirer2/"
+            strings["btn_source"], url="https://t.me/aspirer2/"
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_CHANNEL"], url="https://t.me/intimacyfolks"),
+        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/intimacyfolks"),
         InlineKeyboardButton(
-            strings["btn_GROUP"], url="https://t.me/intimacyfolkz"
+            strings["btn_group"], url="https://t.me/intimacyfolkz"
         ),
     buttons.add(
         InlineKeyboardButton(
