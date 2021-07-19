@@ -24,7 +24,7 @@ from aiogram.contrib.fsm_storage.redis import RedisStorage2
 from NellyZ.config import get_bool_key, get_int_key, get_list_key, get_str_key
 from NellyZ.services.telethon import tbot
 from NellyZ.utils.logger import log
-from NellyZ.versions import DAISY_VERSION
+from NellyZ.versions import NELLY_VERSION
 
 log.info("----------------------")
 log.info("|      Nelly Z      |")
