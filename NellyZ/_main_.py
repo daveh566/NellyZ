@@ -38,7 +38,7 @@ if get_bool_key("LOAD_MODULES"):
     else:
         modules = ALL_MODULES
 
-    modules = [x for x in modules if x not in DONT_LOAD]
+    modules = [z for z in modules if z not in DONT_LOAD]
 
     log.info("Modules to load: %s", str(modules))
     for module_name in modules:
@@ -46,7 +46,7 @@ if get_bool_key("LOAD_MODULES"):
         if module_name == "pm_menu":
             continue
         log.debug(f"Importing <d><n>{module_name}</></>")
-        imported_module = import_module("DaisyX.modules." + module_name)
+        imported_module = import_module("NellyZ.modules." + module_name)
         if hasattr(imported_module, "__help__"):
             if hasattr(imported_module, "__mod_name__"):
                 MOD_HELP[imported_module.__mod_name__] = imported_module.__help__
