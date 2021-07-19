@@ -78,10 +78,11 @@ async def get_start_func(message, strings, edit=False):
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/intimacyfolks"),
+        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/NellyZBotUpdates"),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/intimacyfolkz"
+            strings["btn_group"], url="https://t.me/KayAspirerProject"
         ),
+    )
     buttons.add(
         InlineKeyboardButton(
             "SOURCE CODE",
