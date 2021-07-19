@@ -19,7 +19,7 @@
 ```sh
 # Install Git First (apt-instll git)
 $ git clone https://github.com/daveh566/DaisyX
-$ cd DaisyX
+$ cd NellyZ
 # Upgrade sources
 $ bash deploy.sh
 # Install All Requirements 
@@ -44,3 +44,5 @@ $ python3 -m NellyX
     ✓REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
+### Credits to Kaykay 
+
