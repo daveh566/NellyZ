@@ -76,6 +76,11 @@ async def get_start_func(message, strings, edit=False):
         InlineKeyboardButton(
             strings["btn_source"], url="https://t.me/aspirer2/"
         ),
+    )buttons.add(
+        InlineKeyboardButton(
+            "CO OWNER",
+          url=f"https://t.me/Famouskaykay/",
+        ),
     )
     buttons.add(
         InlineKeyboardButton(strings["btn_channel"], url="https://t.me/NellyZBotUpdates"),
