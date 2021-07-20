@@ -26,8 +26,8 @@ from telethon.tl.types import *
 from DaisyX.config import get_str_key
 
 OPENWEATHERMAP_ID = get_str_key("OPENWEATHERMAP_ID", "")
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from NellyZ.services.events import register
+from NellyZ.services.telethon import tbot
 
 
 async def is_register_admin(chat, user):
