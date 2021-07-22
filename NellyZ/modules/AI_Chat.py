@@ -372,7 +372,7 @@ Nelly AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
  
 <b> Assistant </b>
- - /ask [question]: Ask question from daisy
+ - /ask [question]: Ask question from nelly
  - /ask [reply to voice note]: Get voice reply
  
 """
