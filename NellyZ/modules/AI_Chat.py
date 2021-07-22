@@ -287,7 +287,7 @@ async def inuka(client, message):
         return
 
 
-@daisyx.on_message(
+@nellyz.on_message(
     filters.regex("Nelly|nelly|Nellyz|nellyz|NellyZ")
     & ~filters.bot
     & ~filters.via_bot
