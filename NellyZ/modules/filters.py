@@ -426,7 +426,7 @@ async def __import__(chat_id, data):
     await update_handlers_cache(chat_id)
 
 
-__mod_name__ = "FILTERS"
+__mod_name__ = "filters"
 
 __help__ = """
 <b> GENERAL FILTERS </b>
