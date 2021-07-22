@@ -21,7 +21,6 @@ from search_engine_parser import GoogleSearch
 
 from NellyZ import BOT_USERNAME, OWNER_ID
 from NellyZ.config import get_str_key
-from NellyZ.function.pluginhelpers import convert_seconds_to_minutes as time_convert
 from NellyZ.function.pluginhelpers import fetch
 from NellyZ.services.pyrogram import pbot
 
