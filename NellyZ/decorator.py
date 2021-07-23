@@ -23,7 +23,6 @@ from sentry_sdk import configure_scope
 from NellyZ import BOT_USERNAME, dp
 from NellyZ.config import get_bool_key
 from NellyZ.modules.error import parse_update
-from NellyZ.utils.filters._init_.py import ALL_FILTERS
 from NellyZ.utils.logger import log
 
 DEBUG_MODE = get_bool_key("DEBUG_MODE")
