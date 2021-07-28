@@ -40,7 +40,7 @@ $ python3 -m NellyX
     ✓ DATABASE_URL: from elephantsql.com
     ✓ OWNER_ID: ur id
     ✓ MONGO_PORT: 27017
-    ✓MONGO_DB': 'DaisyX'
+    ✓MONGO_DB': 'NellyZ'
     ✓REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
