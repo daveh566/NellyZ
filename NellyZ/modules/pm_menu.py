@@ -46,8 +46,8 @@ def help_markup(modules):
 
 STICKERS = (
     "CAACAgIAAxkBAAEGydphA-muyEflyfP-DScJIufSUB0y1AAC2XgAAmOLRgxE-DP2On961yAE",
-    "https://telegra.ph/file/8879158bd2de2ac60e381.jpg",
-    "https://telegra.ph/file/2460c6631fc02400b9479.jpg",
+    "CAACAgIAAxkBAAEGydthA-mu7yA9HBMzT18qqqO8z2DsfQAC6HgAAmOLRgzyV8q_MD8NwiAE",
+    "CAACAgIAAxkBAAEGydxhA-mv489vucEl_jQZHjVApK84VAAC53gAAmOLRgwyU9iKrN8DZCAE",
 )
 
    
@@ -60,7 +60,7 @@ async def start_group_cmd(message, strings):
 
 @register(cmds="start", no_args=True, only_pm=True)
 async def start_cmd(message):
-    await message.reply_image(random.choice(IMAGES))
+    await message.reply_sticker(random.choice(STICKERSS))
     await get_start_func(message)
 
 
