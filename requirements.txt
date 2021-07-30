@@ -121,8 +121,7 @@ pygithub
 
 
 #
-Skem==0.3.3
-gogoanime-api
+Skem==0.
 
 
 
