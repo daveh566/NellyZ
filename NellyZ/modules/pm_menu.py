@@ -44,8 +44,8 @@ def help_markup(modules):
     return markup
 
 
-IMAGES = (
-    "https://telegra.ph/file/2460c6631fc02400b9479.jpg",
+STICKERS = (
+    "CAACAgIAAxkBAAEGydphA-muyEflyfP-DScJIufSUB0y1AAC2XgAAmOLRgxE-DP2On961yAE",
     "https://telegra.ph/file/8879158bd2de2ac60e381.jpg",
     "https://telegra.ph/file/2460c6631fc02400b9479.jpg",
 )
